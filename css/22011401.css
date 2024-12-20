@@ -1,0 +1,91 @@
+body {
+  margin: 20px;
+  line-height: 1.6;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 10px 0;
+  background-color: antiquewhite;
+  img {
+    width: 150px;
+  }
+}
+
+.profile_text {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 15px;
+}
+
+.sju_logo {
+  position: absolute;
+  right: 25%;
+}
+
+.content-1 {
+  color: #000000;
+  text-align: justify;
+  border-style: dashed;
+  border: 2px orange dashed;
+  /* display: flex; */
+  align-items: center;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 10px 0;
+  background-color: lightgoldenrodyellow;
+  margin-top: 15px;
+}
+
+.education {
+  background-color: antiquewhite;
+  border-bottom: 4px solid black;
+  justify-content: center;
+  padding-top: 4px;
+  margin: 0px;
+}
+
+.bachelors,
+.masters,
+.phd {
+  background-color: aquamarine;
+}
+
+.content-2 {
+  color: #000000;
+  text-align: justify;
+  border-style: dashed;
+  border: 2px orange dashed;
+  /* display: flex; */
+  align-items: center;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 10px 0;
+  background-color: lightblue;
+  margin-top: 15px;
+}
+
+/* .sep {
+  margin: 20px;
+}
+
+.liss {
+  margin-left: 50px;
+} */
+
+.content-3 {
+  color: #000000;
+  text-align: justify;
+  border-style: dashed;
+  border: 2px orange dashed;
+  /* display: flex; */
+  align-items: center;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 10px 0;
+  background-color: lightgrey;
+  margin-top: 15px;
+}
